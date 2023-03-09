@@ -139,12 +139,14 @@ body {
 
 .footer{
     background-color: #22D4FD;
+    width: 100%;
     color: black;
     font-family: 'Montserrat';
     font-size: 24px;
     text-align: center;
     padding: 15px;
 }
+
 
 strong{
     color:#22D4FD;
