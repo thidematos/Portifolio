@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     box-sizing: border-box;
     background-color: black;
@@ -71,6 +70,10 @@ body {
     font-size: 24px;
 }
 
+.imagem{
+    flex-shrink: 2;
+}
+
 .section_links_anchor{
     width: 378px;
     padding: 21px 0px;
@@ -101,7 +104,6 @@ body {
 
 .footer{
     background-color: #22D4FD;
-    width: 100%;
     color: black;
     font-family: 'Montserrat';
     font-size: 24px;
