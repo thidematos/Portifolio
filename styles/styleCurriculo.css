@@ -24,9 +24,18 @@ body {
 .header_navegador_link{
     color: #22D4FD;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
+    border: 2px solid #000000;
+    padding: 8px;
+    border-radius: 5px;
     font-family: 'Montserrat';
+    transition: 0.8s;
+}
+
+.header_navegador_link:hover{
+    color: white;
+    border: 2px solid #22D4FD;
 }
 
 /* Main */
@@ -48,90 +57,46 @@ body {
     border-radius: 50%;
 }
 
-
-.container_section{
-    width: 615px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
 .container_section_titulo{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: 'Krona One';
     color:#22D4FD;
 }
 
-
 .container_section_paragrafo{
-    font-size: 16px;
+    font-size: 1rem;
     font-family: 'Montserrat';
     text-align: justify;
     padding: 10px;
 }
 
-.container_section_link{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items:center;
-    gap: 32px;
-    
-}
-
-.section_links_subtitulo{
+.section_subtitulo{
     font-family:'Krona One';
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 10px;
     color:#22D4FD;
 }
 
-.section_links_h3{
+.section_h3{
     font-family:'Krona One';
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     padding: 10px;
 }
 
-.section_links_h4{
+.section_h5{
     font-family:'Krona One';
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.12rem;
     padding: 10px;
-}
-
-.section_links_anchor{
-    width: 378px;
-    padding: 21px 0px;
-    background-color: black;
-    border: 2px solid #22D4FD;
-    border-radius: 8px;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 600;
-    font-family: 'Montserrat';
-    color: whitesmoke;
-    text-decoration: none;
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    transition: 1s;  
-}
-
-.section_links_anchor:hover{
-    
-    background-color: #272727;
-    width: 385px;
 }
 
 .listas{
     list-style-type: none;
     list-style-position: inside;
     padding-left: 10px;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: 'Montserrat';
 }
 
@@ -139,10 +104,9 @@ body {
 
 .footer{
     background-color: #22D4FD;
-    width: 100%;
     color: black;
     font-family: 'Montserrat';
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: center;
     padding: 15px;
 }
