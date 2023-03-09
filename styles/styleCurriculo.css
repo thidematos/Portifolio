@@ -115,3 +115,25 @@ body {
 strong{
     color:#22D4FD;
 }
+
+@media (max-width: 1200px){
+    .header{
+        padding: 2% 2% 0 2%;
+    }
+
+    .header_navegador{
+        gap: 15px;
+        justify-content: center;
+    }
+    .container{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .left_image{
+        align-self: center;
+    }
+    .section_right{
+        display: flex;
+        flex-flow: column wrap;
+    }
+}

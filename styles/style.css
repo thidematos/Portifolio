@@ -110,7 +110,7 @@ body {
 }
 
 .imagem{
-    width: 50%;
+    width: 60%;
 }
 /* Footer */
 
@@ -153,11 +153,5 @@ strong{
 
     .imagem{
         order: -1;
-    }
-
-    .footer{
-        width: auto;
-    }
-
-    
+    }    
 }
