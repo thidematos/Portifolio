@@ -42,7 +42,7 @@ body {
     padding: 5% 8%;
     display:flex;
     flex-wrap: wrap ;
-    gap: 30px;
+    gap: 82px;
     align-items: center;
     justify-content: space-between;
 }
@@ -125,4 +125,39 @@ body {
 
 strong{
     color:#22D4FD;
+}
+
+@media (max-width: 1200px) {
+    .header{
+        padding: 10%;
+    }
+
+    .header_navegador{
+        display:flex;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .container{
+        flex-direction: column;
+        padding: 5% 5%;
+    }
+    
+    .container_section{
+        width: auto;
+    }
+
+    .section_links_anchor{
+        font-size: 90%;
+    }
+
+    .imagem{
+        order: -1;
+    }
+
+    .footer{
+        width: auto;
+    }
+
+    
 }
